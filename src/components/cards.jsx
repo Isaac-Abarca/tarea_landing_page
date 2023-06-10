@@ -19,11 +19,14 @@ export default function App() {
             position="top"
           />
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>El Jardín del Éte</MDBCardTitle>
             <MDBCardText>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Sumérgete en la magia de un jardín encantado donde las flores
+              cobran vida y los senderos te llevan a un mundo de ensueño. El
+              Jardín del Éter es un remanso de paz y belleza, con sus
+              exuberantes prados, fuentes cristalinas y esculturas misteriosas.
+              Déjate cautivar por la armonía de la naturaleza y descubre un
+              lugar donde la realidad y la fantasía se entrelazan
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
@@ -36,23 +39,13 @@ export default function App() {
             position="top"
           />
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>This is a short card.</MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol>
-        <MDBCard className="h-100">
-          <MDBCardImage
-            src="https://mdbootstrap.com/img/new/standard/city/043.webp"
-            alt="..."
-            position="top"
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>La Cumbre de los Sueños</MDBCardTitle>
             <MDBCardText>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
+              Embárcate en una aventura épica hacia La Cumbre de los Sueños:
+              majestuosas montañas con picos escarpados y belleza imponente.
+              Supera tus límites, explora senderos serpenteantes y contempla la
+              grandeza de la tierra desde lo más alto. Vive una experiencia
+              inolvidable en este paraíso montañoso.
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
@@ -65,11 +58,15 @@ export default function App() {
             position="top"
           />
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>La Ciudad Esmeralda</MDBCardTitle>
             <MDBCardText>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Un oasis urbano donde los rascacielos brillan como gemas y las
+              calles están llenas de energía y vida. Esta metrópolis futurista
+              te sorprenderá con su arquitectura vanguardista, parques
+              tecnológicos y una cultura vibrante. Explora sus bulliciosos
+              mercados, disfruta de la deliciosa gastronomía de clase mundial y
+              déjate llevar por la corriente de emociones que fluye por las
+              calles de esta ciudad en constante evolución.
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>

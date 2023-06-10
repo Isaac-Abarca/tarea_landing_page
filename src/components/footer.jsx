@@ -6,7 +6,7 @@ export default function Footer() {
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
+          <span>Conéctate con nosotros en las redes sociales:</span>
         </div>
 
         <div>
@@ -37,11 +37,10 @@ export default function Footer() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Company name
+                ViajesInolvidables S.A
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+              Viajes Inolvidables: Explora destinos fascinantes, vive experiencias inolvidables y crea recuerdos que perdurarán para siempre.
               </p>
             </MDBCol>
 
@@ -49,22 +48,22 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                    Viajes de Aventura Extrema
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                    Escapadas de Relax
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                    Experiencias Culturales
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                    Aventuras en la Naturaleza
                 </a>
               </p>
             </MDBCol>
@@ -73,22 +72,22 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  Precios
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
+                  Configuraciones 
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
+                  Reservas
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                  Ayuda
                 </a>
               </p>
             </MDBCol>
@@ -97,17 +96,17 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+                Alamedas, Golfito 10012, CR
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                ViajesInolvidables@gmail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> + 506 1234 5678
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <MDBIcon icon="print" className="me-3" /> + 506 1234 5678
               </p>
             </MDBCol>
           </MDBRow>
@@ -117,7 +116,7 @@ export default function Footer() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2021 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+            ViajesInolvidables.com
         </a>
       </div>
     </MDBFooter>
