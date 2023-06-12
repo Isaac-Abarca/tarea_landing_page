@@ -13,13 +13,13 @@ export default function Home() {
             <div className='text-white'>
               <h1 className='mb-3'>Viajes Inolvidables: Descubre, Vive, Recuerda</h1>
               <h4 className='mb-3'>Personas a bordo: {count} </h4>
-              <button className='btn btn-outline-light btn-lg' onClick={incrementCount}>
+              <button className='btn btn-outline-light btn-lg m-2' onClick={incrementCount}>
                  ¿Te unes? +
               </button>
-              <button className='btn btn-outline-light btn-lg' onClick={drecrementCount}>
+              <button className='btn btn-outline-light btn-lg m-2' onClick={drecrementCount}>
                  No te vayas!!! -
               </button>
-              <button className='btn btn-outline-light btn-lg' onClick={reset}>
+              <button className='btn btn-outline-light btn-lg m-2' onClick={reset}>
                  Volvemos a 0
               </button>
             </div>
