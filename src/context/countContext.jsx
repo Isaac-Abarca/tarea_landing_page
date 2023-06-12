@@ -10,8 +10,16 @@ export function CountProvider({ children }) {
     setCount((count) => count + 1);
   };
 
+  const drecrementCount = () => {
+    setCount((count) => count - 1);
+  };
+
+  const reset = () => {
+    setCount((count) => count  - count);
+  };
+
   return (
-    <CountContext.Provider value={{ count, incrementCount }}>
+    <CountContext.Provider value={{ count, incrementCount, drecrementCount, reset }}>
       {children}
     </CountContext.Provider>
   );

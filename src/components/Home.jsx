@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { CountContext } from '../context/countContext'
 
 export default function Home() {
-    const { count, incrementCount } = useContext(CountContext);
+    const { count, incrementCount, drecrementCount, reset } = useContext(CountContext);
   return (
     <div
         className='p-5 text-center bg-image'
@@ -14,7 +14,13 @@ export default function Home() {
               <h1 className='mb-3'>Viajes Inolvidables: Descubre, Vive, Recuerda</h1>
               <h4 className='mb-3'>Personas a bordo: {count} </h4>
               <button className='btn btn-outline-light btn-lg' onClick={incrementCount}>
-                 ¿Te unes?
+                 ¿Te unes? +
+              </button>
+              <button className='btn btn-outline-light btn-lg' onClick={drecrementCount}>
+                 No te vayas!!! -
+              </button>
+              <button className='btn btn-outline-light btn-lg' onClick={reset}>
+                 Volvemos a 0
               </button>
             </div>
           </div>
